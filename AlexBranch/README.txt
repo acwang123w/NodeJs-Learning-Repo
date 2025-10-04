@@ -1,5 +1,5 @@
 To run this make sure express is installed
-cd into this directory through cmd, then:
+cd into this directory (/event-api) through cmd, then:
     npm install
 to run the tests, do
     npm test
