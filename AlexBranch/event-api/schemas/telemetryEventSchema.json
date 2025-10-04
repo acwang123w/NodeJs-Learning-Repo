@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Telemetry Event Schema",
+  "description": "Schema for validating telemetry events received by the API.",
+  "type": "object",
+  "properties": {
+    "telemetry": {
+      "type": "string",
+      "description": "Arbitrary telemetry data as a string or JSON-encoded value."
+    },
+    "device_id": {
+      "type": "string",
+      "description": "Optional unique identifier of the device sending telemetry."
+    },
+    "ts": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Optional timestamp in ISO 8601 UTC format."
+    }
+  },
+  "required": ["telemetry"],
+  "additionalProperties": true
+}

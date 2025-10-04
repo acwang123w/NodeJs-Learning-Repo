@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "correlation_id": { "type": "string" },
+    "sku_id": { "type": "string" },
+    "track_id": { "type": "string" },
+    "device_id": { "type": "string" },
+    "ts": { "type": "string", "format": "date-time" }
+  },
+  "required": ["correlation_id", "sku_id", "track_id", "device_id", "ts"],
+  "additionalProperties": false
+}
