@@ -5,6 +5,7 @@ to run the tests, do
     npm test
 to manually test and see how the code works, run
     npm start
+
 then in another cmd, you can test it by sending curl requests
 
 Cheatsheet for curl requests
